@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald');
-/*
-*******
-colors
-*******
-blue: #0D52CC
-red: #D60A00
-green: #BFB829
-light blue: #42C2D6
-magenta: #CC21A8
-******
-Fonts
-******
-"Alegreya","Gerogia","Palatino Linotype", serif;
-"Source San Pro", "Geneva", "Tahoma", sans-serif;
-*/
+
 *{
     margin: 0;
     padding: 0;
@@ -218,6 +204,8 @@ footer{
     margin-left: 33%;
     margin-right: 54%;
 }
+
+/*All media queries for site*/
 
 @media screen and (max-width: 1435px){
     .nav-link{
