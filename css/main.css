@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald');
+/*
+*******
+colors
+*******
+blue: #0D52CC
+red: #D60A00
+green: #BFB829
+light blue: #42C2D6
+magenta: #CC21A8
+******
+Fonts
+******
+"Alegreya","Gerogia","Palatino Linotype", serif;
+"Source San Pro", "Geneva", "Tahoma", sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .display-3, h2{
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    color: goldenrod;  
+}
+p{
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.nav-item a{
+    font-size: 130%;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+
+}
+
+.extra-contact{
+    color: white;
+    background-color: #171717;
+    border-top: .30rem solid #750001;
+    border-bottom: .30rem solid #750001;
+    border-right: .30rem solid #750001;
+    border-left: .30rem solid #750001; 
+
+}
+
+.extra-contact h4{
+    margin-left: 11%;
+    margin-right: 10%;
+}
+.extra-contact h3{
+    margin-left: 11%;
+    margin-right: 72%;
+    font-weight: bolder;
+    border-bottom: .10rem solid #750001;
+    
+}
+
+
+.nav-item{
+    background-color: #171717;
+    border-top: .30rem solid #AD0001;
+    border-bottom: .30rem solid #AD0001;
+    border-right: .30rem solid #AD0001;
+    border-left: .30rem solid #AD0001;
+    border-radius: 15%;
+
+    
+}
+.navbar{
+    border-top: .25rem solid #750001;
+    border-bottom: .25rem solid #750001;
+    height: 90px;
+
+}
+
+.row{
+
+    margin-bottom: 5rem;
+
+   
+}
+
+.col-lg-4 col-md-6 col-sm-12{
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.col-lg-4 col-md-6 col-sm-12:hover{
+    -webkit-transform: scale(3);
+    -webkit-transform: rotate(360deg);
+}
+
+
+body{
+    background-color: #000332;
+}
+#logo-icon{
+    -webkit-transition: all 0.5s ease-out;
+    width: 8rem;
+    height: 4rem;
+    
+    
+}
+
+.goofy-footer{
+   margin-left: 25%; 
+}
+
+#logo-muricans{
+    -webkit-transition: all 0.5s ease-out;
+    width: 25rem;
+    height: 3rem;
+    
+}
+#logo-muricans:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(3);
+    border-top: .30rem solid #750001;
+    border-bottom: .30rem solid #750001;
+    border-right: .30rem solid #750001;
+    border-left: .30rem solid #750001;
+    background-color:black;
+}
+
+audio { 
+   display:none;
+}
+
+#logo-icon:hover{
+    -webkit-transform: scale(3);
+    -webkit-transform: rotate(360deg);
+}
+
+.title-name{
+    margin-right: 40%;
+    margin-left: 23%;
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    color: goldenrod;
+
+}
+
+
+.nav-link{
+    margin-left: 8.0rem;
+    margin-right: 8.5rem;
+    margin-top: 1.0rem;
+    color: white;
+    
+}
+
+.jumbotron-fluid{
+    background-image: url(../img/flag.jpg);
+    background-size: cover   
+}
+
+
+
+
+#bottom{
+    background-image: url(../img/army.jpg);
+    background-size:cover;
+}
+footer{
+    border-top: .5rem solid #750001;
+    border-bottom: .5rem solid #750001;
+    height: 12rem;
+    background-color: #171717;
+}
+.col-12{
+    padding-bottom: 3rem;
+    color: white;
+}
+.button{
+    margin-top: 1rem;
+}
+
+#logo{
+    width: 10rem;  
+}
+.social{
+    margin-left: 15rem;
+    margin-top: 2rem;
+    width: 60px;
+    height: 60px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    }
+
+.img.social{
+    width: 100px;
+}
+#facebook, #tumblr{
+    background-color: white;
+}
+#instagram{
+    background-color: #CC21A8;
+}
+#pinterest{
+    background-color: #D60A00;
+}
+
+#instagram:hover, #tumblr:hover, #pinterest:hover, #facebook:hover{
+    background-color: #42C2D6; 
+    
+}
+.contact_us{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.col-sm-6{
+    margin-left: 38%;
+    margin-right: 54%;
+}
+.col-sm-5{
+    margin-left: 33%;
+    margin-right: 54%;
+}
+
+@media screen and (max-width: 1435px){
+    .nav-link{
+    margin-left: 6.0rem;
+    margin-right: 6.0rem;
+    margin-top: 0.5rem;
+    
+}
+}
+
+@media screen and (max-width: 1250px){
+    .nav-link{
+    margin-left: 2.9rem;
+    margin-right: 2.9rem;
+    margin-top: 0rem;
+    
+}
+   .social{
+    float: left;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    width: 60px;
+    height: 60px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    } 
+    .title-name{
+    margin-right: 20%;
+    margin-left: 13%;
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    color: goldenrod;
+}
+    .title-name h1{
+    margin-right: -10%;
+    margin-left: -15%;
+    margin-top: 0%;
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    color: goldenrod;
+    font-size: 250%;    
+}
+    
+    
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    .nav-link{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    
+}
+   .social{
+    float: left;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    width: 60px;
+    height: 60px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    } 
+    .title-name{
+    margin-right: 20%;
+    margin-left: 13%;
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    color: goldenrod;
+}
+    .title-name h1{
+    margin-right: -10%;
+    margin-left: -15%;
+    margin-top: 0%;
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    color: goldenrod;
+    font-size: 160%;    
+}
+    
+    #logo-icon{
+    -webkit-transition: all 0.5s ease-out;
+    width: 5rem;
+    height: 3rem;
+    
+    
+}
+    #logo-icon:hover{
+    -webkit-transform: scale(3);
+    -webkit-transform: rotate(360deg);
+}
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+    .goofy-footer{
+   margin-left: 10%; 
+}
+    footer{
+    border-top: .5rem solid #750001;
+    border-bottom: .5rem solid #750001;
+    height: 20rem;
+    background-color: #171717;
+}
+    .title-name h1{
+    margin-right: -10%;
+    margin-left: -15%;
+    margin-top: 5%;
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    color: goldenrod;
+    font-size: 130%;    
+}
+    
+    .contact_us{
+        display: none;
+        margin-left: 3%;
+        margin-right: 0%;
+        float: left;
+    }
+    
+    .social{
+    float: left;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 60px;
+    height: 60px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    }
+    .col-sm-6{
+    margin-left: 3%;
+    margin-top: 10%;
+
+}
+    .col-sm-5{
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+    
+    #logo-muricans{
+    -webkit-transition: all 0.5s ease-out;
+    width: 8rem;
+    height: 2rem;
+    
+}
+#logo-muricans:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(3);
+    border-top: .30rem solid #750001;
+    border-bottom: .30rem solid #750001;
+    border-right: .30rem solid #750001;
+    border-left: .30rem solid #750001;
+    background-color:black;
+}
+    
+    #logo-icon{
+    -webkit-transition: all 0.5s ease-out;
+    width: 5rem;
+    height: 3rem;
+    
+    
+}
+    #logo-icon:hover{
+    -webkit-transform: scale(3);
+    -webkit-transform: rotate(360deg);
+}
+ 
+
+}
+
+    
