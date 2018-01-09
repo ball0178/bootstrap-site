@@ -70,14 +70,7 @@ p{
    
 }
 
-.col-lg-4 col-md-6 col-sm-12{
-    -webkit-transition: all 0.5s ease-out;
-}
 
-.col-lg-4 col-md-6 col-sm-12:hover{
-    -webkit-transform: scale(3);
-    -webkit-transform: rotate(360deg);
-}
 
 
 body{
