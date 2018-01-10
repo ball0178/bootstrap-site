@@ -160,7 +160,22 @@ footer{
     color: white;
 }
 .button{
+    color:white;
+    background-color: darkred;
     margin-top: 1rem;
+    width: 1110px;
+    height: 500px;
+    font-size: 100;
+    font-weight: bolder;
+    border-radius: 25%;
+    border-top: 1.5rem solid #750001;
+    border-bottom: 1.5rem solid #750001;
+    border-right: 1.5rem solid #750001;
+    border-left: 1.5rem solid #750001;
+}
+
+.bigbutton{
+    font-style: italic;
 }
 
 #logo{
@@ -214,9 +229,37 @@ footer{
     margin-top: 0.5rem;
     
 }
+    .button{
+    color:white;
+    background-color: darkred;
+    margin-top: 1rem;
+    width: 910px;
+    height: 400px;
+    font-size: 90;
+    font-weight: bolder;
+    border-radius: 20%;
+    border-top: 1.2rem solid #750001;
+    border-bottom: 1.2rem solid #750001;
+    border-right: 1.2rem solid #750001;
+    border-left: 1.2rem solid #750001;
+}
 }
 
 @media screen and (max-width: 1250px){
+        .button{
+    color:white;
+    background-color: darkred;
+    margin-top: 1rem;
+    width: 710px;
+    height: 300px;
+    font-size: 80;
+    font-weight: bolder;
+    border-radius: 15%;
+    border-top: 1.0rem solid #750001;
+    border-bottom: 1.0rem solid #750001;
+    border-right: 1.0rem solid #750001;
+    border-left: 1.0rem solid #750001;
+}
     .nav-link{
     margin-left: 2.9rem;
     margin-right: 2.9rem;
@@ -256,6 +299,20 @@ footer{
 
 
 @media screen and (max-width: 900px){
+    .button{
+    color:white;
+    background-color: darkred;
+    margin-top: 1rem;
+    width: 510px;
+    height: 200px;
+    font-size: 70;
+    font-weight: bolder;
+    border-radius: 15%;
+    border-top: 0.8rem solid #750001;
+    border-bottom: 0.8rem solid #750001;
+    border-right: 0.8rem solid #750001;
+    border-left: 0.8rem solid #750001;
+}
     .nav-link{
     margin-left: 0rem;
     margin-right: 0rem;
@@ -315,6 +372,21 @@ footer{
 
 
 @media screen and (max-width: 700px){
+    .button{
+    color:white;
+    background-color: darkred;
+    margin-top: 1rem;
+    width: 310px;
+    height: 100px;
+    font-size: 60;
+    font-weight: bolder;
+    border-radius: 10%;
+    border-top: 0.6rem solid #750001;
+    border-bottom: 0.6rem solid #750001;
+    border-right: 0.6rem solid #750001;
+    border-left: 0.6rem solid #750001;
+}
+    
     .goofy-footer{
    margin-left: 10%; 
 }
